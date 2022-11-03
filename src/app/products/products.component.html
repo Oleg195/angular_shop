@@ -1,0 +1,14 @@
+<h1>Products</h1>
+<div *ngFor="let product of products"
+[routerLink]="['/products', product.id]"
+class="fon_shop scale">
+  <p>id: {{ product.id }}</p>
+  <p>title: {{ product.title }}</p>
+  <p>price: {{ product.price }}</p>
+  <p>RAM: {{ product.spec.RAM }}</p>
+  <p>ROM:{{ product.spec.ROM }}</p>
+  <img [src]="product.image" class="w-56">
+  <br>
+
+  
+</div>

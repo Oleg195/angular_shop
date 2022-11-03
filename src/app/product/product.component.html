@@ -1,0 +1,13 @@
+<div  class="fon_shop " >
+    <p>{{ product.id }}</p>
+    <p>{{ product.title }}</p>
+
+    <p>{{ product.spec.RAM }}</p>
+    <p>{{ product.spec.ROM }}</p>
+    <img [src]="product.image" class="w-56">
+          <i>Cтоимость:{{product.price}}</i>
+    <br>
+        <a class="success-1 scale">Оформить заказ</a>
+        <a class="success-2 scale" href="/products">Вернуться в Каталог</a>
+      </div>
+

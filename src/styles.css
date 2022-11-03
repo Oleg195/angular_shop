@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fon_menu{background-color: aqua;
+color: darkblue;
+font-size: medium;
+text-align: center;}
+.w-56{width: 150px;
+height: 100px;
+text-align: center;
+background-position: center;}
+
+.fon_shop{    font-size: x-large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    border: 1px solid #EFEFEF;
+    margin: 50px 70px;
+}
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2)}
+
+.success-1 {
+background-color: #5d8b00;
+padding:10px 50px;
+margin: 20px;
+color: #fff;}
+
+.success-2 {
+    background-color: #0d1602e9;
+    padding: 5px 15px;
+    margin: 10px;
+    color: #fff;}
